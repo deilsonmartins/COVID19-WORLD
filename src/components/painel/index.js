@@ -16,7 +16,7 @@ export default function Painel() {
         var sumDeaths = 0
         api.get('countries').then(response => {
             response.data.data.map(countrie => (
-                sumCases = sumCases + countrie.cases,
+                sumCases = sumCases + countrie.confirmed,
                 sumDeaths = sumDeaths + countrie.deaths,
                 setCases(sumCases),
                 setDeaths(sumDeaths)

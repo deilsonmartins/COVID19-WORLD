@@ -27,7 +27,7 @@ export default function Table() {
                     <li>
                         <table>
                             <tr>
-                                <th><span >Cases</span></th>
+                                <th><span >Active Cases</span></th>
                                 <th><span >Deaths</span></th>
                             </tr>
                             <tr>
