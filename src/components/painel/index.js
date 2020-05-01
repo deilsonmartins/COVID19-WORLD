@@ -28,6 +28,7 @@ export default function Painel() {
     return (
         
         <Wrapper>
+            <h1>Follow the COVID19 cases around the world. <br/> <a href="https://covid19-brazil-api-docs.now.sh/">This site uses the following API: https://covid19-brazil-api-docs.now.sh/</a></h1>
             <ul>
                 <li>
                     <span><NumberFormat value={Number(cases)} displayType={'text'} thousandSeparator={true}/></span>

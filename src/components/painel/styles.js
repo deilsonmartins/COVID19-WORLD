@@ -3,6 +3,21 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
+
+  h1 {
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    ${media.lessThan("medium")`
+        font-size: 16px;
+        
+        
+      `}
+
+  }
   
   ul {
       display: grid;
